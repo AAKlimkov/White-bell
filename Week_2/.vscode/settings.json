@@ -1,15 +1,18 @@
 {
   "files.associations": {
     "*.css": "css",
-    "xlocale": "cpp",
-    "algorithm": "cpp",
-    "xutility": "cpp",
-    "vector": "cpp",
     "iostream": "cpp",
-    "xstring": "cpp"
+    "vector": "cpp",
+    "iterator": "cpp",
+    "format": "cpp",
+    "initializer_list": "cpp",
+    "xstring": "cpp",
+    "xutility": "cpp",
+    "deque": "cpp"
   },
   "[c]": {
     "editor.defaultFormatter": "ms-vscode.cpptools"
+    //☝🏼 Select the MS extension as defaultFormatter
   },
   "[cpp]": {
     "editor.defaultFormatter": "ms-vscode.cpptools"
