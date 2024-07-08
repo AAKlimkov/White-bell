@@ -1,0 +1,12 @@
+{
+  "files.associations": {
+    "*.css": "css",
+    "xlocale": "cpp"
+  },
+  "[c]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  }
+}
