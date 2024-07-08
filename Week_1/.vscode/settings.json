@@ -1,6 +1,12 @@
 {
   "files.associations": {
     "*.css": "css",
-    "iostream": "cpp"
+    "iostream": "cpp",
+    "vector": "cpp",
+    "iterator": "cpp",
+    "format": "cpp",
+    "initializer_list": "cpp",
+    "xstring": "cpp",
+    "xutility": "cpp"
   }
 }
