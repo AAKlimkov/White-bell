@@ -3,7 +3,10 @@
     "*.css": "css",
     "xlocale": "cpp",
     "algorithm": "cpp",
-    "xutility": "cpp"
+    "xutility": "cpp",
+    "vector": "cpp",
+    "iostream": "cpp",
+    "xstring": "cpp"
   },
   "[c]": {
     "editor.defaultFormatter": "ms-vscode.cpptools"
