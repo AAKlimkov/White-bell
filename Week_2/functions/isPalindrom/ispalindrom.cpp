@@ -3,11 +3,16 @@
 
 using namespace std;
 
-string IsPalindrom(string str)
+bool IsPalindrom(const string& str)
 {
     string reversed_str = str;
-    reverse(str.begin(), str.end());
-    return (reversed_str == str) ? "true" : "false";
+    reverse(reversed_str.begin(), reversed_str.end());
+    return reversed_str == str;
+}
+
+string BoolToString(bool value)
+{
+    return value ? "true" : "false";
 }
 
 int main()
@@ -15,7 +20,7 @@ int main()
     string str;
     cin >> str;
 
-    cout << IsPalindrom(str);
+    cout << BoolToString(IsPalindrom(str));
 
     return 0;
 }

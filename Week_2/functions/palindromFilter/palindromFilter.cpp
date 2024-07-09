@@ -4,7 +4,7 @@
 
 using namespace std;
 
-bool IsPalindrom(string str)
+bool IsPalindrom(const string &str)
 {
     string reversed_str = str;
     reverse(str.begin(), str.end());
@@ -16,7 +16,7 @@ vector<string> PalindromFilter(const vector<string> &input, int length)
     vector<string> result;
     for (const string &word : input)
     {
-        if (IsPalindrom(word) && word.size() > length)
+        if (word.size() > length && IsPalindrom(word) )
         {
             result.push_back(word);
         }
@@ -32,6 +32,7 @@ int main()
 
     for (const string word : PalindromFilter(input, length))
     {
+        
         cout << word << ' ';
     }
 
